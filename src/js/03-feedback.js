@@ -4,7 +4,7 @@ let form=document.querySelector('form.feedback-form');
 let emailEl=document.querySelector('label [name = "email"]');
 let mesageEl= document.querySelector('label [name="message"]');
 
-const STORAGE_KEY ='feddback-form-state';
+const STORAGE_KEY ='feedback-form-state';
 
 function onPageReload() {
     const savedMessage= JSON.parse(localStorage.getItem(STORAGE_KEY));
